@@ -14,8 +14,7 @@ class ChangeDetection(Dataset):
 
     def __init__(self, root, mode, use_pseudo_label=False):
         super(ChangeDetection, self).__init__()
-        # self.root = os.path.join(root, 'ChangeDetection')
-        self.root = root
+        self.root = os.path.join(root, 'ChangeDetection')
 
         self.mode = mode
         self.use_pseudo_label = use_pseudo_label
@@ -29,7 +28,7 @@ class ChangeDetection(Dataset):
             else:
                 self.ids = list(set(self.ids) - set(self.ids[::10]))
         else:
-            # self.root = os.path.join(self.root, 'test')
+            self.root = os.path.join(self.root, 'test')
             self.ids = os.listdir(os.path.join(self.root, 'im1'))
         self.ids.sort()
 

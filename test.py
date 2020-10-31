@@ -26,7 +26,7 @@ if __name__ == "__main__":
     torch.backends.cudnn.benchmark = True
     
     print(torch.cuda.is_available())
-    testset = ChangeDetection(root='/val', mode="test")
+    testset = ChangeDetection(root=args.data_root, mode="test")
     testloader = DataLoader(testset, batch_size=8, shuffle=False,
                             pin_memory=True, num_workers=4, drop_last=False)
 
