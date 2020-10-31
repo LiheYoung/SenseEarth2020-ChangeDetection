@@ -149,7 +149,7 @@ if __name__ == "__main__":
     trainer = Trainer(args)
 
     if args.load_from:
-        trainer.validation(0)
+        trainer.validation()
 
     for epoch in range(args.epochs):
         print("\n==> Epoches %i, learning rate = %.5f\t\t\t\t previous best = %.2f" %
