@@ -4,7 +4,7 @@
 [Challenge](https://rs.sensetime.com/competition/index.html#/info) 
 hosted by [SenseTime](https://www.sensetime.com/cn).**
 
-## Task Introduction
+## Task Description
 
 Given two images of the same scene acquired at different times, we are required to mark the changed 
 and unchanged areas. Moreover, as for the changed areas, we need to annotate their detailed semantic masks. 
