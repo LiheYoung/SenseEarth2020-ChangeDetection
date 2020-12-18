@@ -30,7 +30,7 @@ serving as pseudo labels of unchanged areas.
 
 The overall training process can be summarized as:
 
-* Training several large segmentation models.
+* Training multiple large segmentation models.
 * Ensembling their predictions on unchanged areas.
 * Training a smaller model with both labeled and pseudo labeled areas.
 
