@@ -1,11 +1,27 @@
 # SenseEarth2020 - ChangeDetection
 
+**1st place in the satellite image change detection 
+[challenge](https://rs.sensetime.com/competition/index.html#/info) 
+hosted by [SenseTime](https://www.sensetime.com/cn).**
+
 ## Task Introduction
 
-![](https://github.com/LiheYoung/SenseEarth2020-ChangeDetection/blob/master/docs/pipeline.pdf)
+Given two images of the same scene acquired at different times, we are required to mark the changed 
+and unchanged areas. Moreover, as for the changed areas, we need to annotate their detailed semantic masks. 
+
+The change detection task in this competition can be decomposed of two sub-tasks:
+* binary segmentation of changed and unchanged areas.
+* semantic segmentation of changed areas.
 
 
 ## Our Method
+
+### Model
+
+![image](https://github.com/LiheYoung/SenseEarth2020-ChangeDetection/blob/master/docs/pipeline.pdf)
+
+
+### Pseudo Labeling
 
 **The core practice is using self-distillation strategy to assign pseudo labels to unchanged areas.**
 
