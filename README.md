@@ -1,7 +1,7 @@
 # SenseEarth2020 - ChangeDetection
 
-**1st place in the satellite image change detection 
-[challenge](https://rs.sensetime.com/competition/index.html#/info) 
+**1st place in the Satellite Image Change Detection 
+[Challenge](https://rs.sensetime.com/competition/index.html#/info) 
 hosted by [SenseTime](https://www.sensetime.com/cn).**
 
 ## Task Introduction
@@ -18,7 +18,7 @@ The change detection task in this competition can be decomposed of two sub-tasks
 
 ### Model
 
-![image](https://github.com/LiheYoung/SenseEarth2020-ChangeDetection/blob/master/docs/pipeline.pdf)
+![image](https://github.com/LiheYoung/SenseEarth2020-ChangeDetection/blob/master/docs/pipeline.png)
 
 
 ### Pseudo Labeling
