@@ -9,7 +9,7 @@ hosted by [SenseTime](https://www.sensetime.com/cn).**
 Given two images of the same scene acquired at different times, we are required to mark the changed 
 and unchanged areas. Moreover, as for the changed areas, we need to annotate their detailed semantic masks. 
 
-The change detection task in this competition can be decomposed of two sub-tasks:
+The change detection task in this competition can be decomposed into two sub-tasks:
 * binary segmentation of changed and unchanged areas.
 * semantic segmentation of changed areas.
 
