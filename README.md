@@ -2,7 +2,7 @@
 
 ## Task Introduction
 
-
+![](https://github.com/LiheYoung/SenseEarth2020-ChangeDetection/blob/master/docs/pipeline.pdf)
 
 
 ## Our Method
@@ -14,8 +14,11 @@ serving as pseudo labels of unchanged areas.
 
 The overall training process can be summarized as:
 
-* Train several large segmentation models.
-* Ensemble their predictions on unchanged areas.
-* Train a small segmentation with both labeled and pseudo-labeled areas.
+* Training several large segmentation models.
+* Ensembling their predictions on unchanged areas.
+* Training a smaller model with both labeled and pseudo labeled areas.
 
 
+For more details, please refer to the 
+[technical report](https://github.com/LiheYoung/SenseEarth2020-ChangeDetection/blob/master/docs/technical%20report.pdf) 
+and [presentation](https://github.com/LiheYoung/SenseEarth2020-ChangeDetection/blob/master/docs/presentation.pptx).
