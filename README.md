@@ -15,7 +15,7 @@ The change detection task in this competition can be decomposed into two sub-tas
 
 
 ## Data
-[BaiduNetDisk Code: f3qq](https://pan.baidu.com/s/1Yg90vlAiKezSoxH7WEoV6g) 
+[Download](https://pan.baidu.com/s/1Yg90vlAiKezSoxH7WEoV6g) code: f3qq
 
 ## Our Method
 
