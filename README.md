@@ -15,7 +15,7 @@ The change detection task in this competition can be decomposed into two sub-tas
 
 
 ## Data
-[Download, Password: 0e1l](https://pan.baidu.com/s/1ljPuw0GNkeVw5F2hWWkVMQ) 
+[Download [0e1l]](https://pan.baidu.com/s/1ljPuw0GNkeVw5F2hWWkVMQ) 
 
 ## Our Method
 
