@@ -14,6 +14,9 @@ The change detection task in this competition can be decomposed into two sub-tas
 * semantic segmentation of changed areas.
 
 
+## Data
+[Download, Password: 0e1l](https://pan.baidu.com/s/1ljPuw0GNkeVw5F2hWWkVMQ) 
+
 ## Our Method
 
 ### Model
