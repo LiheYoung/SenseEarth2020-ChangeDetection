@@ -44,9 +44,7 @@ and [presentation](https://github.com/LiheYoung/SenseEarth2020-ChangeDetection/b
 [Download](https://pan.baidu.com/s/1Yg90vlAiKezSoxH7WEoV6g) code: f3qq
 
 ### Pretrained Model
-[HRNet-W18](https://1drv.ms/u/s!Aus8VCZ_C_33cMkPimlmClRvmpw)
-
-[HRNet-W40](https://1drv.ms/u/s!Aus8VCZ_C_33ck0gvo5jfoWBOPo)
+[HRNet-W18](https://1drv.ms/u/s!Aus8VCZ_C_33cMkPimlmClRvmpw) | [HRNet-W40](https://1drv.ms/u/s!Aus8VCZ_C_33ck0gvo5jfoWBOPo)
 
 ### File Organization
 
