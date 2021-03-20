@@ -14,9 +14,6 @@ The change detection task in this competition can be decomposed into two sub-tas
 * semantic segmentation of changed areas.
 
 
-## Data
-[Download](https://pan.baidu.com/s/1Yg90vlAiKezSoxH7WEoV6g) code: f3qq
-
 ## Our Method
 
 ### Model
@@ -41,3 +38,21 @@ The overall training process can be summarized as:
 For more details, please refer to the 
 [technical report](https://github.com/LiheYoung/SenseEarth2020-ChangeDetection/blob/master/docs/technical%20report.pdf) 
 and [presentation](https://github.com/LiheYoung/SenseEarth2020-ChangeDetection/blob/master/docs/presentation.pptx).
+
+## Getting Started
+
+### Dataset
+[Download](https://pan.baidu.com/s/1Yg90vlAiKezSoxH7WEoV6g) code: f3qq
+
+### Pretrained Model
+(HRNet-W18)(https://1drv.ms/u/s!Aus8VCZ_C_33cMkPimlmClRvmpw)
+(HRNet-W40)(https://1drv.ms/u/s!Aus8VCZ_C_33ck0gvo5jfoWBOPo)
+
+### File Organization
+
+
+### Training
+
+
+### Testing
+
