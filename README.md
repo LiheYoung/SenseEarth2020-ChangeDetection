@@ -4,7 +4,9 @@
 [Challenge](https://rs.sensetime.com/competition/index.html#/info) 
 hosted by [SenseTime](https://www.sensetime.com/cn).**
 
-## Task Description
+## Our Method
+
+### Task Description
 
 Given two images of the same scene acquired at different times, we are required to mark the changed 
 and unchanged areas. Moreover, as for the changed areas, we need to annotate their detailed semantic masks. 
@@ -12,9 +14,6 @@ and unchanged areas. Moreover, as for the changed areas, we need to annotate the
 The change detection task in this competition can be decomposed into two sub-tasks:
 * binary segmentation of changed and unchanged areas.
 * semantic segmentation of changed areas.
-
-
-## Our Method
 
 ### Model
 
