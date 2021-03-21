@@ -13,13 +13,20 @@ class Options:
         parser.add_argument("--weight-decay", type=float, default=1e-4)
         parser.add_argument("--backbone", type=str, default="resnet34")
         parser.add_argument("--model", type=str, default="fcn")
-        parser.add_argument("--lightweight", dest="lightweight", action="store_true")
-        parser.add_argument("--load-from", type=str)
-        parser.add_argument("--pretrain-from", type=str)
-        parser.add_argument("--pretrained", dest="pretrained", action="store_true")
-        parser.add_argument("--tta", dest="tta", action="store_true")
-        parser.add_argument("--save-mask", dest="save_mask", action="store_true")
-        parser.add_argument("--use-pseudo-label", dest="use_pseudo_label", action="store_true")
+        parser.add_argument("--lightweight", dest="lightweight", action="store_true",
+                           help='lightweight head for fewer parameters and faster speed')
+        parser.add_argument("--pretrain-from", type=str,
+                           help='train from a checkpoint')
+        parser.add_argument("--load-from", type=str,
+                           help='load trained model to generate predictions of validation set')
+        parser.add_argument("--pretrained", dest="pretrained", action="store_true",
+                           help='initialize the backbone with pretrained parameters')
+        parser.add_argument("--tta", dest="tta", action="store_true",
+                           help='test-time augmentation')
+        parser.add_argument("--save-mask", dest="save_mask", action="store_true",
+                           help='save predictions of validation set during training')
+        parser.add_argument("--use-pseudo-label", dest="use_pseudo_label", action="store_true",
+                           help='use pseudo labels for re-training (much pseudo labeling first)')
 
         self.parser = parser
 
