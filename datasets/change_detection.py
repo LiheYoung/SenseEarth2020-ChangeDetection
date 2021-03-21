@@ -28,7 +28,7 @@ class ChangeDetection(Dataset):
             else:
                 self.ids = list(set(self.ids) - set(self.ids[::10]))
         else:
-            self.root = os.path.join(self.root, 'test')
+            self.root = os.path.join(self.root, 'val')
             self.ids = os.listdir(os.path.join(self.root, 'im1'))
         self.ids.sort()
 
