@@ -88,7 +88,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python train.py --backbone hrnet_w40 --pretrained -
 # Modify the backbones, models and checkpoint paths in L20-40 in label.py manually according to your saved models
 
 # Pseudo labeling
-CUDA_VISIBLE_DEVICES=0 python label.py
+CUDA_VISIBLE_DEVICES=0,1,2,3 python label.py
 
 # Re-training
 CUDA_VISIBLE_DEVICES=0,1,2,3 python train.py --backbone hrnet_w18 --pretrained --model pspnet --lightweight --use-pseudo-label
@@ -97,6 +97,6 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python train.py --backbone hrnet_w18 --pretrained -
 ### Testing
 ```
 # Modify the backbones, models and checkpoint paths in L39-44 in test.py manually according to your saved models
-CUDA_VISIBLE_DEVICES=0 python test.py
+CUDA_VISIBLE_DEVICES=0,1,2,3 python test.py
 ```
 
