@@ -8,11 +8,11 @@ class Options:
         parser.add_argument("--batch-size", type=int, default=16)
         parser.add_argument("--val-batch-size", type=int, default=16)
         parser.add_argument("--test-batch-size", type=int, default=16)
-        parser.add_argument("--epochs", type=int, default=20)
+        parser.add_argument("--epochs", type=int, default=30)
         parser.add_argument("--lr", type=float, default=0.0003)
         parser.add_argument("--weight-decay", type=float, default=1e-4)
-        parser.add_argument("--backbone", type=str, default="resnet34")
-        parser.add_argument("--model", type=str, default="fcn")
+        parser.add_argument("--backbone", type=str, default="hrnet_w18")
+        parser.add_argument("--model", type=str, default="pspnet")
         parser.add_argument("--lightweight", dest="lightweight", action="store_true",
                            help='lightweight head for fewer parameters and faster speed')
         parser.add_argument("--pretrain-from", type=str,
