@@ -85,6 +85,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python train.py --backbone hrnet_w18 --pretrained -
 ```
 # This step is optional but important in performance improvement
 # Modify the backbones, models and checkpoint paths in L20-40 in label.py manually according to your saved models
+# It is better to ensemble multiple trained models for pseudo labeling
 
 # Pseudo labeling
 CUDA_VISIBLE_DEVICES=0,1,2,3 python label.py
