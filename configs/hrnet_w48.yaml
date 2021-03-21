@@ -1,6 +1,6 @@
 MODEL:
   NAME: seg_hrnet
-  PRETRAINED: '/data/lihe/models/hrnet_w48.pth'
+  PRETRAINED: 'data/pretrained_models/hrnet_w48.pth'
   EXTRA:
     FINAL_CONV_KERNEL: 1
     STAGE1:
