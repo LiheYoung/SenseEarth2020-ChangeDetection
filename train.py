@@ -134,13 +134,13 @@ class Trainer:
         score *= 100.0
         if score >= self.previous_best:
             if self.previous_best != 0:
-                model_path = "outdir/models/change_detection/%s_%s_%.2f.pth" % \
+                model_path = "outdir/models/%s_%s_%.2f.pth" % \
                              (self.args.model, self.args.backbone, self.previous_best)
                 if os.path.exists(model_path):
                     os.remove(model_path)
 
-            torch.save(self.model.module.state_dict(), "outdir/models/change_detection/%s_%s_%.2f.pth" %
-                       (self.args.model, self.args.backbone, score), _use_new_zipfile_serialization=False)
+            torch.save(self.model.module.state_dict(), "outdir/models/%s_%s_%.2f.pth" %
+                       (self.args.model, self.args.backbone, score))
             self.previous_best = score
 
 
