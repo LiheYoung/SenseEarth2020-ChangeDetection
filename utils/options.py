@@ -5,11 +5,11 @@ class Options:
     def __init__(self):
         parser = argparse.ArgumentParser('SenseEarth -- Change Detection')
         parser.add_argument("--data-root", type=str, default="data/dataset")
-        parser.add_argument("--batch-size", type=int, default=16)
+        parser.add_argument("--batch-size", type=int, default=8)
         parser.add_argument("--val-batch-size", type=int, default=16)
         parser.add_argument("--test-batch-size", type=int, default=16)
         parser.add_argument("--epochs", type=int, default=30)
-        parser.add_argument("--lr", type=float, default=0.0003)
+        parser.add_argument("--lr", type=float, default=0.00015)
         parser.add_argument("--weight-decay", type=float, default=1e-4)
         parser.add_argument("--backbone", type=str, default="hrnet_w18")
         parser.add_argument("--model", type=str, default="pspnet")
