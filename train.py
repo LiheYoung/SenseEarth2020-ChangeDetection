@@ -115,11 +115,11 @@ class Trainer:
                     for i in range(out1.shape[0]):
                         mask = Image.fromarray(out1[i].astype(np.uint8), mode="P")
                         mask.putpalette(cmap)
-                        mask.save("outdir/masks/train/im1/" + id[i])
+                        mask.save("outdir/masks/val/im1/" + id[i])
 
                         mask = Image.fromarray(out2[i].astype(np.uint8), mode="P")
                         mask.putpalette(cmap)
-                        mask.save("outdir/masks/train/im2/" + id[i])
+                        mask.save("outdir/masks/val/im2/" + id[i])
 
                 metric.add_batch(out1, mask1.numpy())
                 metric.add_batch(out2, mask2.numpy())
