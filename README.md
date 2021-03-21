@@ -63,6 +63,7 @@ data
 |   |   ├── im1
 |   |   └── ...
 │   └── val                    # the final testing set (without labels)
+|
 └── pretrained_models
     ├── hrnet_w18.pth
     ├── hrnet_w40.pth
