@@ -48,15 +48,19 @@ and [presentation](https://github.com/LiheYoung/SenseEarth2020-ChangeDetection/b
 
 ### File Organization
 ```
+# store the whole dataset and pretrained backbones
 mkdir -p data/dataset ; mkdir -p data/pretrained_models ;
-mkdir -p outdir/models ; mkdir -p outdir/masks/train/im1 ; mkdir -p outdir/masks/train/im2 ;
+# store the trained models
+mkdir -p outdir/models ; 
+# store the pseudo masks
+mkdir -p outdir/masks/train/im1 ; mkdir -p outdir/masks/train/im2 ;
 
 data
-├── dataset
-│   ├── train
+├── dataset                    # download from the link above, put the subdirs 'train' and 'val' here
+│   ├── train                  # training set
 |   |   ├── im1
 |   |   └── ...
-│   └── val
+│   └── val                    # the final testing set (without labels)
 └── pretrained_models
     ├── hrnet_w18.pth
     ├── hrnet_w40.pth
