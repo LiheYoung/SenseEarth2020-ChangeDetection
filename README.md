@@ -57,7 +57,8 @@ mkdir -p outdir/models ;
 # store the pseudo masks
 mkdir -p outdir/masks/train/im1 ; mkdir -p outdir/masks/train/im2 ;
 
-# store predictions of testing set
+# store predictions of validation set and testing set
+mkdir -p outdir/masks/val/im1 ; mkdir -p outdir/masks/val/im2 ;
 mkdir -p outdir/masks/test/im1 ; mkdir -p outdir/masks/test/im2 ;
 
 data
