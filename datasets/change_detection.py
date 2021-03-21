@@ -14,7 +14,7 @@ class ChangeDetection(Dataset):
 
     def __init__(self, root, mode, use_pseudo_label=False):
         super(ChangeDetection, self).__init__()
-        self.root = os.path.join(root, 'ChangeDetection')
+        self.root = root
 
         self.mode = mode
         self.use_pseudo_label = use_pseudo_label
