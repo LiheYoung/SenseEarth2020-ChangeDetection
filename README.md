@@ -49,9 +49,8 @@ and [presentation](https://github.com/LiheYoung/SenseEarth2020-ChangeDetection/b
 ### File Organization
 ```
 mkdir -p data/dataset ; mkdir -p data/pretrained_models ;
-mkdir -p outdir/models ; mkdir -p outdir/masks/train/im1 ; mkdir -p outdir/masks/train/im2 ; 
-```
-```
+mkdir -p outdir/models ; mkdir -p outdir/masks/train/im1 ; mkdir -p outdir/masks/train/im2 ;
+
 data
 ├── dataset
 │   ├── train
