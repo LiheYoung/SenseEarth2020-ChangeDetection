@@ -4,7 +4,7 @@ import argparse
 class Options:
     def __init__(self):
         parser = argparse.ArgumentParser('SenseEarth -- Change Detection')
-        parser.add_argument("--data-root", type=str, default="data/datasets")
+        parser.add_argument("--data-root", type=str, default="data/dataset")
         parser.add_argument("--batch-size", type=int, default=16)
         parser.add_argument("--val-batch-size", type=int, default=16)
         parser.add_argument("--test-batch-size", type=int, default=16)
