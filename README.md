@@ -41,15 +41,15 @@ and [presentation](https://github.com/LiheYoung/SenseEarth2020-ChangeDetection/b
 ## Getting Started
 
 ### Dataset
-[Download (password: f3qq)](https://pan.baidu.com/s/1Yg90vlAiKezSoxH7WEoV6g) 
+[Download [password: f3qq]](https://pan.baidu.com/s/1Yg90vlAiKezSoxH7WEoV6g) 
 
 ### Pretrained Model
 [HRNet-W18](https://1drv.ms/u/s!Aus8VCZ_C_33cMkPimlmClRvmpw) | [HRNet-W40](https://1drv.ms/u/s!Aus8VCZ_C_33ck0gvo5jfoWBOPo) | [HRNet-W44](https://1drv.ms/u/s!Aus8VCZ_C_33czZQ0woUb980gRs) | [HRNet-W48](https://1drv.ms/u/s!Aus8VCZ_C_33dKvqI6pBZlifgJk)
 
 ### File Organization
 ```
-mkdir -p data/dataset ; mkdir -p data/pretrained_models ; 
-mkdir -p outdir/models ; mkdir -p outdir/masks/train/im1 ; mkdir -p outdir/masks/train/im2
+mkdir -p data/dataset ; mkdir -p data/pretrained_models ;
+mkdir -p outdir/models ; mkdir -p outdir/masks/train/im1 ; mkdir -p outdir/masks/train/im2 ; 
 ```
 ```
 data
