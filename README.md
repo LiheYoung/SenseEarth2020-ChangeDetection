@@ -50,8 +50,10 @@ and [presentation](https://github.com/LiheYoung/SenseEarth2020-ChangeDetection/b
 ```
 # store the whole dataset and pretrained backbones
 mkdir -p data/dataset ; mkdir -p data/pretrained_models ;
+
 # store the trained models
 mkdir -p outdir/models ; 
+
 # store the pseudo masks
 mkdir -p outdir/masks/train/im1 ; mkdir -p outdir/masks/train/im2 ;
 
