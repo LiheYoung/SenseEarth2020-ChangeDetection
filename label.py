@@ -19,23 +19,23 @@ if __name__ == '__main__':
 
     model1 = get_model('fcn', 'hrnet_w40', False, len(dataset.CLASSES) - 1, True)
     model1.load_state_dict(
-        torch.load('outdir/models/change_detection/base_models_iter1/fcn_hrnet_w40_37.37.pth'), strict=True)
+        torch.load('outdir/models/fcn_hrnet_w40_37.37.pth'), strict=True)
 
     model2 = get_model('fcn', 'hrnet_w48', False, len(dataset.CLASSES) - 1, True)
     model2.load_state_dict(
-        torch.load('outdir/models/change_detection/base_models_iter1/fcn_hrnet_w48_37.46.pth'), strict=True)
+        torch.load('outdir/models/fcn_hrnet_w48_37.46.pth'), strict=True)
 
     model3 = get_model('pspnet', 'hrnet_w40', False, len(dataset.CLASSES) - 1, True)
     model3.load_state_dict(
-        torch.load('outdir/models/change_detection/base_models_iter1/pspnet_hrnet_w40_37.69.pth'), strict=True)
+        torch.load('outdir/models/pspnet_hrnet_w40_37.69.pth'), strict=True)
 
     model4 = get_model('pspnet', 'hrnet_w48', False, len(dataset.CLASSES) - 1, True)
     model4.load_state_dict(
-        torch.load('outdir/models/change_detection/base_models_iter1/pspnet_hrnet_w48_37.63.pth'), strict=True)
+        torch.load('outdir/models/pspnet_hrnet_w48_37.63.pth'), strict=True)
 
     model5 = get_model('pspnet', 'hrnet_w64', False, len(dataset.CLASSES) - 1, True)
     model5.load_state_dict(
-        torch.load('outdir/models/change_detection/base_models_iter1/pspnet_hrnet_w64_37.89.pth'), strict=True)
+        torch.load('outdir/models/pspnet_hrnet_w64_37.89.pth'), strict=True)
 
     models = [model1, model2, model3, model4, model5]
     for i in range(len(models)):
