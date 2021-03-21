@@ -26,7 +26,7 @@ class Options:
         parser.add_argument("--save-mask", dest="save_mask", action="store_true",
                            help='save predictions of validation set during training')
         parser.add_argument("--use-pseudo-label", dest="use_pseudo_label", action="store_true",
-                           help='use pseudo labels for re-training (much pseudo labeling first)')
+                           help='use pseudo labels for re-training (must pseudo labeling first)')
 
         self.parser = parser
 
