@@ -196,7 +196,7 @@ class ResNet(nn.Module):
 def _resnet(arch, block, layers, pretrained, **kwargs):
     model = ResNet(block, layers, **kwargs)
     if pretrained:
-        state_dict = torch.load('/data/lihe/models/%s-official.pth' % arch)
+        state_dict = torch.load('data/pretrained_models/%s.pth' % arch)
         model.load_state_dict(state_dict, strict=False)
     return model
 
