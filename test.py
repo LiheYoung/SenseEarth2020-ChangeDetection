@@ -15,6 +15,12 @@ from tqdm import tqdm
 
 
 if __name__ == "__main__":
+    """
+    Since the final evaluation is limited in 400 seconds in this challenge and the online inference speed 
+    is hard to estimate accurately, we compute the inference speed in earlier iterations during inference 
+    and choose not to use test-time augmentation in later iterations if time is not enough.
+    """
+    
     START_TIME = time.time()
     LIMIT_TIME = 400 - 20
     PAST_TIME = 0
@@ -31,9 +37,9 @@ if __name__ == "__main__":
                             pin_memory=True, num_workers=4, drop_last=False)
 
     model1 = get_model('pspnet', 'hrnet_w40', False, len(testset.CLASSES) - 1, True)
-    model1.load_state_dict(torch.load('./outdir/models/change_detection/pspnet_hrnet_w40_39.37.pth'), strict=True)
+    model1.load_state_dict(torch.load('outdir/models/pspnet_hrnet_w40_39.37.pth'), strict=True)
     model2 = get_model('pspnet', 'hrnet_w18', False, len(testset.CLASSES) - 1, True)
-    model2.load_state_dict(torch.load('./outdir/models/change_detection/pspnet_hrnet_w18_38.74.pth'), strict=True)
+    model2.load_state_dict(torch.load('outdir/models/pspnet_hrnet_w18_38.74.pth'), strict=True)
 
     models = [model1, model2]
     for i in range(len(models)):
@@ -46,11 +52,6 @@ if __name__ == "__main__":
     TOTAL_ITER = len(testloader)
     CHECK_ITER = TOTAL_ITER // 5
     NO_TTA_ITER = TOTAL_ITER
-
-    if not os.path.exists('/output/im1'):
-        os.mkdir('/output/im1')
-    if not os.path.exists('/output/im2'):
-        os.mkdir('/output/im2')
 
     with torch.no_grad():
         for k, (img1, img2, id) in enumerate(tbar):
@@ -135,11 +136,11 @@ if __name__ == "__main__":
             for i in range(out1.shape[0]):
                 mask = Image.fromarray(out1[i].astype(np.uint8), mode="P")
                 mask.putpalette(cmap)
-                mask.save("/output/im1/" + id[i])
+                mask.save("outdir/masks/test/im1/" + id[i])
 
                 mask = Image.fromarray(out2[i].astype(np.uint8), mode="P")
                 mask.putpalette(cmap)
-                mask.save("/output/im2/" + id[i])
+                mask.save("outdir/masks/test/im1/" + id[i])
 
             if k == CHECK_ITER - 1:
                 iter_end_time = time.time()
