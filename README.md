@@ -77,9 +77,8 @@ data
 ### Training
 ```
 # Please refer to utils/options.py for more arguments
+# If hardware supports, more backbones can be trained, such as hrnet_w44, hrnet_w48
 CUDA_VISIBLE_DEVICES=0,1,2,3 python train.py --backbone hrnet_w18 --pretrained --model pspnet --lightweight
-
-CUDA_VISIBLE_DEVICES=0,1,2,3 python train.py --backbone hrnet_w40 --pretrained --model pspnet --lightweight
 ```
 
 ### Pseudo Labeling & Re-training 
