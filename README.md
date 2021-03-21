@@ -41,7 +41,7 @@ and [presentation](https://github.com/LiheYoung/SenseEarth2020-ChangeDetection/b
 ## Getting Started
 
 ### Dataset
-[Download [password: f3qq]](https://pan.baidu.com/s/1Yg90vlAiKezSoxH7WEoV6g) 
+[Description](https://rs.sensetime.com/competition/index.html#/data) | [Download [password: f3qq]](https://pan.baidu.com/s/1Yg90vlAiKezSoxH7WEoV6g) 
 
 ### Pretrained Model
 [HRNet-W18](https://1drv.ms/u/s!Aus8VCZ_C_33cMkPimlmClRvmpw) | [HRNet-W40](https://1drv.ms/u/s!Aus8VCZ_C_33ck0gvo5jfoWBOPo) | [HRNet-W44](https://1drv.ms/u/s!Aus8VCZ_C_33czZQ0woUb980gRs) | [HRNet-W48](https://1drv.ms/u/s!Aus8VCZ_C_33dKvqI6pBZlifgJk) | [HRNet-W64](https://1drv.ms/u/s!Aus8VCZ_C_33gQbJsUPTIj3rQu99)
