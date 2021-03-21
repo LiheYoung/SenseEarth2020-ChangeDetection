@@ -19,7 +19,6 @@ The change detection task in this competition can be decomposed into two sub-tas
 
 ![image](https://github.com/LiheYoung/SenseEarth2020-ChangeDetection/blob/master/docs/pipeline.png)
 
-
 ### Pseudo Labeling
 
 **The core practice is using self-distillation strategy to assign pseudo labels to unchanged areas.**
@@ -33,10 +32,11 @@ The overall training process can be summarized as:
 * Ensembling their predictions on unchanged areas.
 * Training a smaller model with both labeled and pseudo labeled areas.
 
-
 For more details, please refer to the 
 [technical report](https://github.com/LiheYoung/SenseEarth2020-ChangeDetection/blob/master/docs/technical%20report.pdf) 
 and [presentation](https://github.com/LiheYoung/SenseEarth2020-ChangeDetection/blob/master/docs/presentation.pptx).
+
+
 
 ## Getting Started
 
@@ -74,6 +74,12 @@ data
 ```
 
 ### Training
+```
+CUDA_VISIBLE_DEVICES=0,1,2,3 python train.py --backbone hrnet_w18 --pretrained --model pspnet --lightweight
+```
+
+
+### Pseudo Labeling & Re-training
 
 
 ### Testing
