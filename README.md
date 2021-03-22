@@ -62,7 +62,7 @@ mkdir -p outdir/masks/val/im1 ; mkdir -p outdir/masks/val/im2 ;
 mkdir -p outdir/masks/test/im1 ; mkdir -p outdir/masks/test/im2 ;
 
 data
-├── dataset                    # download from the link above, put the subdirs 'train' and 'val' here
+├── dataset                    # download from the link above
 │   ├── train                  # training set
 |   |   ├── im1
 |   |   └── ...
