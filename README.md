@@ -61,17 +61,16 @@ mkdir -p outdir/masks/train/im1 ; mkdir -p outdir/masks/train/im2 ;
 mkdir -p outdir/masks/val/im1 ; mkdir -p outdir/masks/val/im2 ;
 mkdir -p outdir/masks/test/im1 ; mkdir -p outdir/masks/test/im2 ;
 
-data
-├── dataset                    # download from the link above
-│   ├── train                  # training set
-|   |   ├── im1
-|   |   └── ...
-│   └── val                    # the final testing set (without labels)
-|
-└── pretrained_models
-    ├── hrnet_w18.pth
-    ├── hrnet_w40.pth
-    └── ...
+|-- data
+        |-- dataset            # download from the link above
+                |-- train      # training set
+                        |-- im1
+                        |-- ...
+                |-- val        # the final testing set (without labels)
+        |-- pretrained_models
+                |-- hrnet_w18.pth
+                |-- hrnet_w40.pth
+                |-- ...
 ```
 
 ### Training
