@@ -46,6 +46,9 @@ and [presentation](https://github.com/LiheYoung/SenseEarth2020-ChangeDetection/b
 ### Pretrained Model
 [HRNet-W18](https://1drv.ms/u/s!Aus8VCZ_C_33cMkPimlmClRvmpw) | [HRNet-W40](https://1drv.ms/u/s!Aus8VCZ_C_33ck0gvo5jfoWBOPo) | [HRNet-W44](https://1drv.ms/u/s!Aus8VCZ_C_33czZQ0woUb980gRs) | [HRNet-W48](https://1drv.ms/u/s!Aus8VCZ_C_33dKvqI6pBZlifgJk) | [HRNet-W64](https://1drv.ms/u/s!Aus8VCZ_C_33gQbJsUPTIj3rQu99)
 
+### Final Trained Model
+[PSPNet-HRNet-W18](https://drive.google.com/file/d/1xRoltAyFjT7DxvuxS5WGdjG0YOlIG8i6/view?usp=sharing) | [PSPNet-HRNet-W40](https://drive.google.com/file/d/1QKQ_gAoyA_ysFWj5kDO_TlPnGJKOUyYf/view?usp=sharing)
+
 ### File Organization
 ```
 # store the whole dataset and pretrained backbones
@@ -97,6 +100,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python train.py --backbone hrnet_w18 --pretrained -
 ### Testing
 ```
 # Modify the backbones, models and checkpoint paths in L39-44 in test.py manually according to your saved models
+# Or simply use our final trained models
 CUDA_VISIBLE_DEVICES=0,1,2,3 python test.py
 ```
 
