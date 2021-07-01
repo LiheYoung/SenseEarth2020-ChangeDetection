@@ -1,4 +1,4 @@
-# SenseEarth2020 - ChangeDetection
+<h1 align="center">SenseEarth2020 - ChangeDetection</h1>
 
 **1st place in the Satellite Image Change Detection 
 [Challenge](https://rs.sensetime.com/competition/index.html#/info) 
