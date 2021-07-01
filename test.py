@@ -140,7 +140,7 @@ if __name__ == "__main__":
 
                 mask = Image.fromarray(out2[i].astype(np.uint8), mode="P")
                 mask.putpalette(cmap)
-                mask.save("outdir/masks/test/im1/" + id[i])
+                mask.save("outdir/masks/test/im2/" + id[i])
 
             if k == CHECK_ITER - 1:
                 iter_end_time = time.time()
