@@ -1,6 +1,6 @@
 # SenseEarth2020 - ChangeDetection
 
-**1st place in the Satellite Image Change Detection 
+**1st place in the Satellite Remote Sensing Image Change Detection 
 [Challenge](https://rs.sensetime.com/competition/index.html#/info) 
 hosted by [SenseTime](https://www.sensetime.com/cn).**
 
