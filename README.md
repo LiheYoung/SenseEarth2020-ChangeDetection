@@ -44,7 +44,7 @@ and [presentation](https://github.com/LiheYoung/SenseEarth2020-ChangeDetection/b
 [Description](https://rs.sensetime.com/competition/index.html#/data) | [Download [password: f3qq]](https://pan.baidu.com/s/1Yg90vlAiKezSoxH7WEoV6g) 
 
 ### Pretrained Model
-[HRNet-W18](https://1drv.ms/u/s!Aus8VCZ_C_33cMkPimlmClRvmpw) | [HRNet-W40](https://1drv.ms/u/s!Aus8VCZ_C_33ck0gvo5jfoWBOPo) | [HRNet-W44](https://1drv.ms/u/s!Aus8VCZ_C_33czZQ0woUb980gRs) | [HRNet-W48](https://1drv.ms/u/s!Aus8VCZ_C_33dKvqI6pBZlifgJk) | [HRNet-W64](https://1drv.ms/u/s!Aus8VCZ_C_33gQbJsUPTIj3rQu99)
+[HRNet-W18](https://drive.google.com/file/d/1LHVq88dh4uRiq7pGbb-ZFoP8Na-XRUU2/view?usp=sharing) | [HRNet-W40](https://drive.google.com/file/d/1kyjB_FwYqTwe4B1Cj8my0SLQ9eUQA8nn/view?usp=sharing) | [HRNet-W44](https://drive.google.com/file/d/1ZHFHSrsL-Qoq-fzS7XoPayyQ_20V3RZ0/view?usp=sharing) | [HRNet-W48](https://drive.google.com/file/d/1o9ATkRkD2rVm4MMXY7HP3zNVWdB_jd0I/view?usp=sharing) | [HRNet-W64](https://drive.google.com/file/d/18aZW7Kja2WnzDT0IsvFAGUQktgv81Zd4/view?usp=sharing)
 
 ### Final Trained Model
 [PSPNet-HRNet-W18](https://drive.google.com/file/d/1xRoltAyFjT7DxvuxS5WGdjG0YOlIG8i6/view?usp=sharing) | [PSPNet-HRNet-W40](https://drive.google.com/file/d/1QKQ_gAoyA_ysFWj5kDO_TlPnGJKOUyYf/view?usp=sharing)
